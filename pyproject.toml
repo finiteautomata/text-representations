@@ -8,7 +8,7 @@ authors = ["Juan Manuel Pérez <jmperez.85@gmail.com>"]
 python = "^3.7"
 sentence-transformers = "^2.2.2"
 faiss-cpu = "^1.7.2"
-torch = {url="https://download.pytorch.org/whl/cpu/torch-1.12.0%2Bcpu-cp37-cp37m-linux_x86_64.whl"}
+torch = "*"
 
 [tool.poetry.dev-dependencies]
 jupyter = "^1.0.0"
